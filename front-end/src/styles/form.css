@@ -1,0 +1,79 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color:rgb(27, 26, 26);
+}
+.form-container.main{
+
+    align-items:start;
+ 
+    margin-top: 30px;
+}
+form{
+    width: 30%;
+    background-color: #FFFFFF;
+    box-shadow : rgba(88, 75, 75, 0.12) 4px 4px 20px;
+}
+form h1{
+    text-align: center;
+    font-weight: 700;
+}
+form .form-group{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px;
+}
+.form-header{
+    padding: 2px;
+    border-bottom: 1px solid rgba(97, 85, 85, 0.422);
+}
+.form-header h3{
+    
+    padding-left: 10px;
+   
+}
+.bold-label{
+    font-weight: 600;
+}
+.input-text{
+    padding: 15px;
+    border: none;
+    font-family: "Poppins";
+    box-shadow : rgba(88, 75, 75, 0.12) 4px 4px 20px;
+    
+}
+.input-text:focus{
+    outline: none;
+}
+.btn-info{
+    background-color: rgb(68, 146, 223);
+    border: none;
+    color: #fff;
+    font-family: "Poppins";
+    padding: 10px;
+    margin-top: 20px;
+    transition:.15s linear;
+}
+.btn-info:hover{
+opacity: .8;
+}
+.checkbox{
+    border: grey;
+    margin-right: 10px;
+}
+form p{
+    text-align: center;
+}
+form a{
+    color:  rgb(20, 124, 228);
+    text-decoration: none;
+}
+@media(max-width: 767px){
+    form{
+        width: max-content;
+    }
+}

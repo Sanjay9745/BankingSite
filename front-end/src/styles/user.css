@@ -1,0 +1,30 @@
+.user-container{
+    width: 40%;
+    background-color: #FFFFFF;
+    box-shadow : rgba(88, 75, 75, 0.12) 4px 4px 20px;
+    margin-top: 30px;
+    font-size: .9rem;
+
+}
+.user-container div{
+    
+    padding-left: 20px;
+    display: flex;
+    gap: 40px;
+   align-items: center;
+   border-bottom: 1px solid rgba(97, 85, 85, 0.422);
+   word-break: break-word;
+}
+.user-container h2{
+    font-weight:400 ;
+    font-size: 1rem;
+    color:grey;
+}
+.user-container h1{
+    font-weight:500 ;
+    font-size: 1.2rem;
+
+}
+.user-container .bottom-user-div{
+    border-bottom: none;
+}

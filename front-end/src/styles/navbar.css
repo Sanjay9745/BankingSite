@@ -1,0 +1,38 @@
+.nav-container {
+  width: 100%;
+  box-shadow: rgba(88, 75, 75, 0.12) 4px 4px 20px;
+  background-color: white;
+}
+h2 {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(39, 36, 36);
+}
+nav {
+  border-top: 1px solid rgba(97, 85, 85, 0.422);
+  border-bottom: 1px solid rgba(97, 85, 85, 0.422);
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(39, 36, 36);
+  transition: 0.15s linear;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgba(39, 36, 36, 0.419);
+}
+@media (max-width: 767px) {
+  nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

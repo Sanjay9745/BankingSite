@@ -1,0 +1,53 @@
+.statement-container{
+    width: 40%;
+    background-color: #FFFFFF;
+    box-shadow : rgba(88, 75, 75, 0.12) 4px 4px 20px;
+    margin-top: 30px;
+    font-size: .9rem;
+}
+.statement-header{
+    padding: 20px;
+    border-bottom: 1px solid rgba(97, 85, 85, 0.422);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.statement-table table thead{
+    padding: 20px;
+    border-bottom: 1px solid rgba(97, 85, 85, 0.422);
+    
+    font-size: 1rem;
+    color: grey;
+}
+.statement-table table thead th{
+    font-weight: 500;
+
+}
+.statement-table table tbody td{
+    padding-top: 10px;
+   width:90px;
+   text-align: center;
+
+}
+.statement-pagination{
+    border-top: 1px solid rgba(97, 85, 85, 0.422);
+}
+.pagination{
+    display: flex;
+    gap: 5px;
+}
+ul.pagination li a{
+    padding: 2px 10px;
+    border: 1px solid grey;
+}
+ul.pagination li a:hover{
+  
+    background-color: rgb(68, 146, 223);
+    color:white;
+
+}
+@media(max-width: 767px){
+    .statement-container{
+        width: 98%;
+        font-size: .5rem;
+    }
+}

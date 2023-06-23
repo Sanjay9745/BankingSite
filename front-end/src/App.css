@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color:rgb(27, 26, 26);
+}
+.container.user{
+    align-items: start;
+}
